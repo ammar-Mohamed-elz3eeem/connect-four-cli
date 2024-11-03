@@ -1,0 +1,36 @@
+{
+  "name": "connect-four",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "rollup --config"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-four": "file:",
+    "keypress": "^0.2.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.26.0",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@types/chai": "^5.0.1",
+    "@types/keypress": "^2.0.30",
+    "@types/mocha": "^10.0.9",
+    "@types/node": "^22.8.7",
+    "@types/sinon": "^17.0.3",
+    "chai": "4.5",
+    "mocha": "^10.8.2",
+    "rollup": "^4.24.3",
+    "sinon": "^19.0.2",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.6.3"
+  }
+}
