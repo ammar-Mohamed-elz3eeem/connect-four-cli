@@ -125,7 +125,7 @@ export default class ConnectFour {
 	 *     to represents a tie in the game. and if non of the above
 	 *     cases it returns false.
 	 */
-	private static checkWin(grid: string[][]) {
+	public static checkWin(grid: string[][]) {
 		// 0. create a flag to indicate if the game is finished or not.
 		let isFinished = false;
 		let isTie = true;
