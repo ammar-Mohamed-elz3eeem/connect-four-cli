@@ -32,6 +32,16 @@ export default class Command {
 		this.action = action;
 	}
 
+  /**
+   * This method is a getter for the command description.
+   *
+   * @returns
+   *     The description of the command.
+   */
+  getDescription() {
+    return this.description;
+  }
+  
 	/**
 	 * This function calls the action that needs to be done when
 	 * the command key is pressed.
